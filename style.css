@@ -1,0 +1,68 @@
+h1 {
+    color: black;
+}
+
+.header *{
+  border: solid;
+}
+
+.header{
+    background-color: red;
+    display: flex;
+    border: solid;
+    justify-content: space-between; 
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #123456;
+}
+
+.menu *{
+    margin-right: 40px;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+a:link{
+    color: lightblue;
+}
+
+a:visited{
+    color: black;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+    font-size: x-large;
+    color: lightblue;
+}
+
+.item:hover img{
+    opacity: 0.3;
+}
